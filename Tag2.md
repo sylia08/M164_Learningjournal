@@ -2,6 +2,7 @@
 ## Inhalt
 - [ Generalisierung Spezialisierung](#generalisierung-spezialisierung)
 - [ Beziehungsarten in Datenbanken](#beziehungsarten-in-datenbanken)
+- [DBMS](#dbms)
 ## Generalisierung Spezialisierung 
 Die Datenbankmodellierung basiert auf Attributen, die Entitätstypen zugeordnet werden. 
 Problematisch wird es, wenn mehrere Entitätstypen gemeinsame Attribute haben, was zu Redundanz führen kann (z. B. Mitarbeiter, die auch Kunden sind).
@@ -31,3 +32,14 @@ Eigenschaften:
 - Der Fremdschlüssel kann beliebig geändert werden, ohne dass die Foreign Key der Child-Tabelle verloren geht.
 - Wird im Diagramm mit ----- verbindungen erkannt
 <img width="592" alt="image" src="https://github.com/user-attachments/assets/6376a314-def1-4fb4-90d8-1db41876c92b" />
+
+## DBS
+Ein DBS dient der elektronischen Verwaltung grosser Datenmengen. Es speichert Daten effizient, widerspruchsfrei und dauerhaft und stellt benötigte Informationen in nutzergerechter Form dar.
+Bestandteile eines DBS:
+- DBMS (Datenbankmanagementsystem): Software zur Organisation, Zugriffskontrolle und Abfrage.
+- DB (Datenbank): Die zu verwaltenden Daten.
+  
+Datenbanksysteme gibt es in verschiedenen Formen. Die Art und Weise, wie ein solches System Daten speichert und verwaltet, wird durch das Datenbankmodell festgelegt. Die bekannteste Form eines Datenbanksystems ist das Relationale Datenbanksystem.
+<img width="592" alt="image" src="https://github.com/user-attachments/assets/e4e70afc-6822-48b2-ac9e-9ae81337cc3a"/>
+
+## DBMS
