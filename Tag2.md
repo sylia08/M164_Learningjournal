@@ -1,8 +1,14 @@
 # Tag 2
 ## Inhalt
-- [ Generalisierung Spezialisierung](#generalisierung-spezialisierung)
-- [ Beziehungsarten in Datenbanken](#beziehungsarten-in-datenbanken)
-- [DBMS](#dbms)
+- [Generalisierung & Spezialisierung](#generalisierung-spezialisierung)
+- [Beziehungsarten in Datenbanken](#beziehungsarten-in-datenbanken)
+  - [Identifying Relationships](#identifying-relationships)
+  - [Non-Identifying Relationships](#non-identifying-relationships)
+- [DBMS (Datenbankmanagementsysteme)](#dbms)
+  - [Aufgaben und Merkmale eines DBMS](#aufgaben-und-merkmale-eines-dbms)
+  - [Vorteile eines DBS](#vorteile-eines-dbs)
+  - [Nachteile eines DBS](#nachteile-eines-dbs)
+  - [Produkte](#produkte)
 ## Generalisierung Spezialisierung 
 Die Datenbankmodellierung basiert auf Attributen, die Entitätstypen zugeordnet werden. 
 Problematisch wird es, wenn mehrere Entitätstypen gemeinsame Attribute haben, was zu Redundanz führen kann (z. B. Mitarbeiter, die auch Kunden sind).
@@ -38,7 +44,7 @@ Ein Datenbanksystem (DBS) dient der elektronischen Verwaltung grosser Datenmenge
 - dem Datenbankmanagementsystem (DBMS): Software zur Organisation, Speicherung, Abfrage und Kontrolle von Datenzugriffen.
 - der Datenbank (DB): Sammlung der zu verwaltenden Daten.
 
-#### Aufgaben und Merkmale eines DBMS:
+### Aufgaben und Merkmale eines DBMS:
 Integrierte Datenhaltung: Einheitliche, redundanzarme Speicherung mit effizienter Verknüpfung komplexer Datenbeziehungen.
 
 Datenbanksprache:
@@ -64,7 +70,7 @@ Datenbanksprache:
 
 **Datensicherung (Recovery):** Wiederherstellung der Daten nach Fehlern.
 
-#### Vorteile eines DBS:
+### Vorteile eines DBS:
 - Standardisierung der Datenorganisation.
 - Effizienter Datenzugriff durch spezialisierte Speichertechniken.
 - Schnellere Anwendungsentwicklung dank integrierter Funktionen.
@@ -72,7 +78,7 @@ Datenbanksprache:
 - Hohe Verfügbarkeit durch gleichzeitigen Zugriff und Transaktionskontrolle.
 - Wirtschaftlichkeit durch zentrale Datenhaltung und Ressourcennutzung.
 
-#### Nachteile eines DBS:
+### Nachteile eines DBS:
 - Hohe Anfangskosten (Software, Hardware, Personal).
 - Geringere Effizienz bei spezialisierten Anwendungen.
 - Komplexe Anforderungen an Sicherheit, Synchronisation, Personal.
@@ -81,7 +87,8 @@ Datenbanksprache:
 - Kein Mehrbenutzerzugriff.
 - Feste Echtzeitanforderungen.
 - Statische, einfache Daten ohne Änderungsbedarf.
-
+  
+### Produkte
 | **Hersteller** | **Produkt**                       | **Modell/Charakteristik**          |
 | -------------- | --------------------------------- | ---------------------------------- |
 | Software AG    | Adabas                            | NF²-Modell (nicht normalisiert)    |
