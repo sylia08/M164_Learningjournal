@@ -33,13 +33,65 @@ Eigenschaften:
 - Wird im Diagramm mit ----- verbindungen erkannt
 <img width="592" alt="image" src="https://github.com/user-attachments/assets/6376a314-def1-4fb4-90d8-1db41876c92b" />
 
-## DBS
-Ein DBS dient der elektronischen Verwaltung grosser Datenmengen. Es speichert Daten effizient, widerspruchsfrei und dauerhaft und stellt benötigte Informationen in nutzergerechter Form dar.
-Bestandteile eines DBS:
-- DBMS (Datenbankmanagementsystem): Software zur Organisation, Zugriffskontrolle und Abfrage.
-- DB (Datenbank): Die zu verwaltenden Daten.
-  
-Datenbanksysteme gibt es in verschiedenen Formen. Die Art und Weise, wie ein solches System Daten speichert und verwaltet, wird durch das Datenbankmodell festgelegt. Die bekannteste Form eines Datenbanksystems ist das Relationale Datenbanksystem.
-<img width="592" alt="image" src="https://github.com/user-attachments/assets/e4e70afc-6822-48b2-ac9e-9ae81337cc3a"/>
-
 ## DBMS
+Ein Datenbanksystem (DBS) dient der elektronischen Verwaltung grosser Datenmengen. Es besteht aus:
+- dem Datenbankmanagementsystem (DBMS): Software zur Organisation, Speicherung, Abfrage und Kontrolle von Datenzugriffen.
+- der Datenbank (DB): Sammlung der zu verwaltenden Daten.
+
+#### Aufgaben und Merkmale eines DBMS:
+Integrierte Datenhaltung: Einheitliche, redundanzarme Speicherung mit effizienter Verknüpfung komplexer Datenbeziehungen.
+
+Datenbanksprache:
+- DQL/DRL: Datenabfragen (z. B. SELECT)
+- DDL: Definition von Datenstrukturen (z. B. CREATE)
+- DML: Datenmanipulation (z. B. INSERT)
+- DCL: Rechtevergabe (z. B. GRANT)
+- TCL: Transaktionssteuerung (z. B. COMMIT)
+
+**Benutzeroberflächen:** Unterschiedliche Interfaces (z. B. GUI, Webzugriff, API) für verschiedene Nutzergruppen.
+
+**Katalog (Data Dictionary):** Enthält Metadaten zur Beschreibung der Datenstruktur.
+
+**Benutzersichten (Views):** Angepasste Ausschnitte des Datenbestands für unterschiedliche Nutzer.
+
+**Konsistenzkontrolle:** Wahrung der Datenintegrität durch Regeln (Constraints) und Sicherstellung der Speicherintegrität.
+
+**Zugriffskontrolle:** Schutz vor unautorisierten Zugriffen.
+
+**Transaktionen:** Änderungen werden atomar und dauerhaft ausgeführt.
+
+**Mehrbenutzerfähigkeit:** Gleichzeitiger Zugriff durch mehrere Nutzer ohne Konflikte (Isolation).
+
+**Datensicherung (Recovery):** Wiederherstellung der Daten nach Fehlern.
+
+#### Vorteile eines DBS:
+- Standardisierung der Datenorganisation.
+- Effizienter Datenzugriff durch spezialisierte Speichertechniken.
+- Schnellere Anwendungsentwicklung dank integrierter Funktionen.
+- Flexibilität durch Datenunabhängigkeit.
+- Hohe Verfügbarkeit durch gleichzeitigen Zugriff und Transaktionskontrolle.
+- Wirtschaftlichkeit durch zentrale Datenhaltung und Ressourcennutzung.
+
+#### Nachteile eines DBS:
+- Hohe Anfangskosten (Software, Hardware, Personal).
+- Geringere Effizienz bei spezialisierten Anwendungen.
+- Komplexe Anforderungen an Sicherheit, Synchronisation, Personal.
+- Zentralisierung als Risiko (Ausfallgefahr, Lösung: Verteilung).
+- Einsatz traditioneller Dateisysteme sinnvoll bei:
+- Kein Mehrbenutzerzugriff.
+- Feste Echtzeitanforderungen.
+- Statische, einfache Daten ohne Änderungsbedarf.
+
+| **Hersteller** | **Produkt**                       | **Modell/Charakteristik**          |
+| -------------- | --------------------------------- | ---------------------------------- |
+| Software AG    | Adabas                            | NF²-Modell (nicht normalisiert)    |
+| InterSystems   | Cache                             | hierarchisch, postrelational       |
+| IBM            | DB2, IMS, Informix                | objektrelational bzw. hierarchisch |
+| Microsoft      | Access, SQL Server, Visual FoxPro | relational/objektrelational        |
+| Oracle         | Oracle                            | objektrelational                   |
+| MySQL AB       | MySQL                             | relational                         |
+| PostgreSQL     | PostgreSQL                        | objektrelational                   |
+| Sybase         | Sybase ASE                        | relational                         |
+| Versant        | Versant                           | objektorientiert                   |
+| NCR Teradata   | Teradata                          | relationales Hochleistungs-DBMS    |
+
