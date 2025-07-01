@@ -91,7 +91,7 @@ Datenbanksprache:
 ### Produkte
 | **Hersteller** | **Produkt**                       | **Modell/Charakteristik**          |
 | -------------- | --------------------------------- | ---------------------------------- |
-| Software AG    | Adabas                            | NF²-Modell (nicht normalisiert)    |
+| Software AG    | Adabas                            | NF2-Modell (nicht normalisiert)    |
 | InterSystems   | Cache                             | hierarchisch, postrelational       |
 | IBM            | DB2, IMS, Informix                | objektrelational bzw. hierarchisch |
 | Microsoft      | Access, SQL Server, Visual FoxPro | relational/objektrelational        |
@@ -101,4 +101,11 @@ Datenbanksprache:
 | Sybase         | Sybase ASE                        | relational                         |
 | Versant        | Versant                           | objektorientiert                   |
 | NCR Teradata   | Teradata                          | relationales Hochleistungs-DBMS    |
+
+
+
+
+
+  
+
 
