@@ -1,5 +1,4 @@
-# Tag 1 – Einführung & Recap M162
-
+# Tag 1 
 ## Inhalt
 - [Grundlagen der Datenmodellierung](#grundlagen-der-datenmodellierung)
   - [Konzeptionelles Datenmodell (ERM)](#1-konzeptionelles-datenmodell-erm)
